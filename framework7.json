@@ -1,8 +1,6 @@
 {
   "cwd": "D:\\dev\\rare-beauty-app",
-  "type": [
-    "web"
-  ],
+  "type": ["web"],
   "name": "Rare Beauty App",
   "framework": "core",
   "template": "split-view",
@@ -11,18 +9,15 @@
   "theming": {
     "customColor": true,
     "color": "#f2e2d3",
-    "darkMode": true,
+    "darkMode": false,
     "iconFonts": true
   },
   "customBuild": true,
   "customBuildConfig": {
     "rtl": false,
-    "darkTheme": true,
+    "darkTheme": false,
     "lightTheme": true,
-    "themes": [
-      "ios",
-      "md"
-    ],
+    "themes": ["ios", "md"],
     "components": [
       "dialog",
       "popup",
