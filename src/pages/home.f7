@@ -41,7 +41,7 @@
             Home
           </span>
         </a>
-        <a href="#" class="link">
+        <a href="/offers/" class="link">
           <i class="f7-icons padding-horizontal">tag</i>
           <span>
             Offers
@@ -71,25 +71,6 @@
 
         <p>The fun thing is that you can easily control one view from another without any line of JavaScript just using
           "data-view" attribute on links.</p>
-      </div>
-      <div class="block-title">Navigation</div>
-      <div class="list list-strong inset list-dividers-ios">
-        <ul>
-          <li>
-            <a href="/about/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">About</div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/form/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">Form</div>
-              </div>
-            </a>
-          </li>
-        </ul>
       </div>
 
       <div class="block-title">Modals</div>

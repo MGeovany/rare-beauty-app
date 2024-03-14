@@ -6,6 +6,8 @@ import ShopPage from "../pages/shop.f7";
 import AboutPage from "../pages/about.f7";
 import SettingsPage from "../pages/settings.f7";
 import LocationPage from "../pages/location.f7";
+import OffersPage from "../pages/offers.f7";
+import ProfilePage from "../pages/profile.f7";
 
 import DynamicRoutePage from "../pages/dynamic-route.f7";
 import RequestAndLoad from "../pages/request-and-load.f7";
@@ -39,6 +41,14 @@ var routes = [
   {
     path: "/location/",
     component: LocationPage,
+  },
+  {
+    path: "/offers/",
+    component: OffersPage,
+  },
+  {
+    path: "/profile/",
+    component: ProfilePage,
   },
   {
     path: "/dynamic-route/blog/:blogId/post/:postId/",

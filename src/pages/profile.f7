@@ -1,5 +1,5 @@
 <template>
-  <div class="page" data-name="favorites">
+  <div class="page" data-name="profile">
     <!-- Top Navbar -->
     <div class="navbar navbar-large">
 
@@ -10,7 +10,7 @@
         <a href="/">
           <img src="https://i.ibb.co/tqGJyr4/favicon.png" alt="favicon" border="0" />
         </a>
-        <div class="title_page">Favorites</div>
+        <div class="title_page">Profile</div>
         <div class="right">
           <a href="#" class="link icon-only panel-open" data-panel="right">
             <i class="icon f7-icons if-not-md menu_icon">

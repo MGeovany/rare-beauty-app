@@ -30,7 +30,7 @@
             Home
           </span>
         </a>
-        <a href="#" class="link">
+        <a href="/offers/" class="link">
           <i class="f7-icons padding-horizontal">tag</i>
           <span>
             Offers
