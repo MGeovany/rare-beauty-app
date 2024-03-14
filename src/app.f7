@@ -1,61 +1,92 @@
-
 <template>
   <div id="app">
 
-
-    <!-- Left panel with cover effect -->
-    <div class="panel panel-left panel-cover dark panel-init" data-visible-breakpoint="960">
-      <div class="view view-init" data-name="left">
+    <!-- right panel with cover effect -->
+    <div class="panel panel-right panel-cover panel-init" data-visible-breakpoint="960">
+      <div class="view view-init" data-name="right">
         <div class="page">
-          <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner sliding">
-              <div class="title">Left Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block-title">Left View Navigation</div>
-            <div class="list links-list">
-              <ul>
-                <li><a href="/left-page-1/">Left Page 1</a></li>
-                <li><a href="/left-page-2/">Left Page 2</a></li>
+          <div class="page-content sidebar_content">
+            <div class="list">
+              <div class="avatar">
+                <img src="https://cdn.framework7.io/placeholder/people-100x100-6.jpg" />
+                <span>Emily Smith</span>
+              </div>
+              <ul class="padding sidebar_list_items">
+                <li>
+                  <a href="/about/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">house</i>
+                    <span>
+                      Home
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">suit_heart</i>
+                    <span>
+                      Favorites
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">bag</i>
+                    <span>
+                      Bag
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">cart</i>
+                    <span>
+                      Shop
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">person</i>
+                    <span>
+                      About Us
+                    </span>
+                  </a>
+                </li>
+                <hr />
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">gear_alt</i>
+                    <span>
+                      Settings
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">placemark</i>
+                    <span>
+                      Location
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/form/" data-view=".view-main" class="panel-close">
+                    <i class="f7-icons padding-horizontal">
+                      clear
+                    </i>
+                    <span>
+                      Log Out
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
-            <div class="block-title">Control Main View</div>
-            <div class="list links-list">
-              <ul>
-                <li>
-                  <a href="/about/" data-view=".view-main" class="panel-close">About</a>
-                </li>
-                <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">Form</a>
-                </li>
-                <li>
-                  <a href="#" data-view=".view-main" class="back panel-close">Back in history</a>
-                </li>
-              </ul>
-            </div>
+            <span class="sidebar_page_url" id="pageUrl">www.rarebeauty.com</span>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Right panel with reveal effect-->
-    <div class="panel panel-right panel-reveal dark">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-              <div class="title">Right Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block">Right panel content goes here</div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Your main view, should have "view-main" class -->
     <div class="view view-main view-init safe-areas" data-url="/"></div>
@@ -95,7 +126,8 @@
                   <div class="item-inner">
                     <div class="item-title item-label">Username</div>
                     <div class="item-input-wrap">
-                      <input type="text" name="username" placeholder="Your username" value="${username}" @input="${updateUsername}"/>
+                      <input type="text" name="username" placeholder="Your username" value="${username}"
+                        @input="${updateUsername}" />
 
                     </div>
                   </div>
@@ -104,7 +136,8 @@
                   <div class="item-inner">
                     <div class="item-title item-label">Password</div>
                     <div class="item-input-wrap">
-                      <input type="password" name="password" placeholder="Your password" value="${password}" @input="${updatePassword}"/>
+                      <input type="password" name="password" placeholder="Your password" value="${password}"
+                        @input="${updatePassword}" />
 
                     </div>
                   </div>
@@ -118,7 +151,8 @@
 
                 </li>
               </ul>
-              <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
+              <div class="block-footer">Some text about login information.<br />Click "Sign In" to close Login Screen
+              </div>
             </div>
           </div>
         </div>
@@ -128,8 +162,9 @@
   </div>
 </template>
 <script>
+
+  // Login screen demo data
   export default (props, { $f7, $update }) => {
-    // Login screen demo data
     let username = '';
     let password = '';
 
