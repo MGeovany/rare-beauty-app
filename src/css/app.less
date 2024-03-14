@@ -1,6 +1,6 @@
 @primary: #863356;
 @secondary: #f2e2d3;
-@tertiary: #e6c5b3;
+@tertiary: #e2b9a7;
 
 /* Left Panel right border when it is visible by breakpoint */
 .panel-left.panel-in-breakpoint:before {
@@ -82,7 +82,7 @@ hr {
 
 .panel-right,
 .panel-right > .view {
-  border-radius: 2rem 0 2rem 2rem;
+  border-radius: 2rem 0 0 2rem;
 }
 
 .menu_icon {
@@ -95,7 +95,7 @@ hr {
   background-color: @secondary;
 }
 
-.navbar-inner > img {
+.navbar-inner > a > img {
   height: 35px;
   border-radius: 50%;
 }
@@ -132,4 +132,27 @@ input {
   color: @primary;
   font-weight: bold;
   font-size: xx-large;
+}
+
+.toolbar-inner > a {
+  font-weight: 50 !important;
+
+  font-size: 0.8rem;
+  color: @tertiary;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar-inner {
+  background-color: @secondary;
+  padding: 4rem 2rem;
+}
+
+.toolbar {
+  height: 7rem;
+}
+
+.toolbar::before {
+  display: none;
 }
