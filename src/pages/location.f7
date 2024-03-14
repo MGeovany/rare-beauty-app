@@ -1,0 +1,25 @@
+<template>
+  <div class="page" data-name="location">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md padding">Back</span>
+          </a>
+        </div>
+        <div class="title">Location</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block-title">Location</div>
+      <div class="block">a</div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default () => {
+    return $render;
+  };
+</script>

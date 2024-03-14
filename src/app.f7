@@ -13,7 +13,7 @@
               </div>
               <ul class="padding sidebar_list_items">
                 <li>
-                  <a href="/about/" data-view=".view-main" class="panel-close">
+                  <a href="/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">house</i>
                     <span>
                       Home
@@ -21,7 +21,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/favorites/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">suit_heart</i>
                     <span>
                       Favorites
@@ -29,7 +29,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/bag/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">bag</i>
                     <span>
                       Bag
@@ -37,7 +37,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/shop/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">cart</i>
                     <span>
                       Shop
@@ -45,7 +45,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/about/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">person</i>
                     <span>
                       About Us
@@ -54,7 +54,7 @@
                 </li>
                 <hr />
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/settings/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">gear_alt</i>
                     <span>
                       Settings
@@ -62,7 +62,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/location/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">placemark</i>
                     <span>
                       Location
@@ -70,7 +70,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/form/" data-view=".view-main" class="panel-close">
+                  <a href="/logout/" data-view=".view-main" class="panel-close">
                     <i class="f7-icons padding-horizontal">
                       clear
                     </i>
