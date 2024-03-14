@@ -66,6 +66,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .avatar {
@@ -268,4 +269,29 @@ li::marker {
   font-size: 15px;
   padding: 0 !important;
   color: @tertiary;
+}
+.home_content {
+  color: @primary;
+}
+
+.home_content > p {
+  color: @primary;
+  font-size: large;
+  font-weight: 50;
+}
+
+.home_section_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.home_section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
 }

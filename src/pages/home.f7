@@ -64,33 +64,35 @@
     <!-- Scrollable page content-->
     <div class="page-content">
       <div class="block">
-        <p>This is an example of split view application layout, commonly used on tablets. The main approach of such kind
-          of layout is that you can see different views at the same time.</p>
-
-        <p>Each view may have different layout, different navbar type (dynamic, fixed or static) or without navbar.</p>
-
-        <p>The fun thing is that you can easily control one view from another without any line of JavaScript just using
-          "data-view" attribute on links.</p>
-      </div>
-
-      <div class="block-title">Modals</div>
-      <div class="block grid grid-cols-2 grid-gap">
-        <a href="#" class="button button-fill popup-open" data-popup="#my-popup">Popup</a>
-        <a href="#" class="button button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
-      </div>
-
-      <div class="list list-strong inset list-dividers-ios links-list">
-        <ul>
-          <li>
-            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
-          </li>
-          <li>
-            <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
-          </li>
-          <li>
-            <a href="/request-and-load/user/123456/">Request Data & Load</a>
-          </li>
-        </ul>
+        <article class="home_content">
+          <p>Take a look to our sections</p>
+          <ul class="home_section">
+            <li>
+              <a href="/shop/" class="home_section_item">
+                <img src="https://avatar.iran.liara.run/public/girl?username=Shop" height="90px" />
+                <h3>Shop All</h3>
+              </a>
+            </li>
+            <li>
+              <a href="/shop/" class="home_section_item">
+                <img src="https://avatar.iran.liara.run/public/girl?username=New" height="90px" />
+                <h3>New Arrivals</h3>
+              </a>
+            </li>
+            <li>
+              <a href="/shop/" class="home_section_item">
+                <img src="https://avatar.iran.liara.run/public/girl?username=Best" height="90px" />
+                <h3>Best Sellers</h3>
+              </a>
+            </li>
+            <li>
+              <a href="/offers/" class="home_section_item">
+                <img src="https://avatar.iran.liara.run/public/girl?username=On" height="90px" />
+                <h3>On Sale</h3>
+              </a>
+            </li>
+          </ul>
+        </article>
       </div>
     </div>
   </div>
