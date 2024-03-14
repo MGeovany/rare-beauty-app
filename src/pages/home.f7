@@ -2,8 +2,24 @@
   <div class="page" data-name="home">
     <!-- Top Navbar -->
     <div class="navbar navbar-large">
-      <div class="navbar-bg"></div>
+
+      <div class="navbar-bg">
+
+      </div>
       <div class="navbar-inner">
+        <img src="https://i.ibb.co/tqGJyr4/favicon.png" alt="favicon" border="0" />
+        <div class="searchbar-backdrop"></div>
+        <form class="searchbar">
+          <div class="searchbar-inner">
+            <div class="searchbar-input-wrap">
+              <input type="search" placeholder="Search here..." />
+              <i class="searchbar-icon"></i>
+              <span class="input-clear-button"></span>
+            </div>
+            <span class="searchbar-disable-button">Cancel</span>
+          </div>
+        </form>
+
         <div class="right">
           <a href="#" class="link icon-only panel-open" data-panel="right">
             <i class="icon f7-icons if-not-md menu_icon">
@@ -12,9 +28,6 @@
           </a>
         </div>
 
-        <div class="title-large">
-          <div class="title-large-text">Rare Beauty App</div>
-        </div>
       </div>
     </div>
     <!-- Toolbar-->

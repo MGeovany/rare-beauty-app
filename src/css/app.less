@@ -88,3 +88,48 @@ hr {
 .menu_icon {
   font-weight: bolder;
 }
+
+.navbar-inner {
+  position: static;
+  height: 100px;
+  background-color: @secondary;
+}
+
+.navbar-inner > img {
+  height: 35px;
+  border-radius: 50%;
+}
+
+.searchbar-inner {
+  background-color: @secondary !important;
+}
+.searchbar:after {
+  display: none;
+}
+
+.searchbar-inner > div > input {
+  background-color: white !important;
+}
+
+input::placeholder {
+  color: @primary !important;
+  font-weight: 50;
+}
+
+input {
+  color: @primary !important;
+}
+
+.ios .navbar .right {
+  margin: 0;
+}
+
+.searchbar-icon {
+  color: @primary;
+}
+
+.title_page {
+  color: @primary;
+  font-weight: bold;
+  font-size: xx-large;
+}
