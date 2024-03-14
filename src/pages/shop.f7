@@ -50,6 +50,137 @@
         </a>
       </div>
     </div>
+    <div class="page-content">
+      <div class="block">
+        <article class="shop_content">
+          <p>Obsessed with our new arrivals</p>
+
+          <ul class="product_lists">
+            <li class="product_lists_item">
+              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px" />
+              <div class="product_lists_item_details">
+                <h3>Comfy Body & Hair Mist</h3>
+                <p>Price: $ 30</p>
+                <section class="shop_item_btns">
+                  <a href="/bag/">
+                    <i class="f7-icons padding-horizontal">cart_fill_badge_plus</i>
+                    <span>Add to cart</span>
+                  </a>
+                  <div>
+                    <a href="/favorites/" class="add_to_favorites">
+                      <i class="f7-icons padding-horizontal">suit_heart</i>
+                    </a>
+                  </div>
+                </section>
+                <section class="review_section">
+                  <div class="review_section_icons">
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                  </div>
+                  <span>
+                    550 Reviews
+                  </span>
+                </section>
+              </div>
+            </li>
+            <li class="product_lists_item">
+              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px" />
+              <div class="product_lists_item_details">
+                <h3>Hydrating Body Lotion</h3>
+                <p>Price: $ 30.32</p>
+                <section class="shop_item_btns">
+                  <a href="/bag/">
+                    <i class="f7-icons padding-horizontal">cart_fill_badge_plus</i>
+                    <span>Add to cart</span>
+                  </a>
+                  <div>
+                    <a href="/favorites/" class="add_to_favorites">
+                      <i class="f7-icons padding-horizontal">suit_heart</i>
+                    </a>
+                  </div>
+                </section>
+                <section class="review_section">
+                  <div class="review_section_icons">
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                  </div>
+                  <span>
+                    379 Reviews
+                  </span>
+                </section>
+              </div>
+            </li>
+            <li class="product_lists_item">
+              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px" />
+              <div class="product_lists_item_details">
+                <h3>Hydrating Hand Cream</h3>
+                <p>Price: $ 22.12</p>
+                <section class="shop_item_btns">
+                  <a href="/bag/">
+                    <i class="f7-icons padding-horizontal">cart_fill_badge_plus</i>
+                    <span>Add to cart</span>
+                  </a>
+                  <div>
+                    <a href="/favorites/" class="add_to_favorites">
+                      <i class="f7-icons padding-horizontal">suit_heart</i>
+                    </a>
+                  </div>
+                </section>
+                <section class="review_section">
+                  <div class="review_section_icons">
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                  </div>
+                  <span>
+                    324 Reviews
+                  </span>
+                </section>
+              </div>
+            </li>
+            <li class="product_lists_item">
+              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px" />
+              <div class="product_lists_item_details">
+                <h3>Soothe Aromatherapy Pen</h3>
+                <p>Price: $ 13</p>
+                <section class="shop_item_btns">
+                  <a href="/bag/">
+                    <i class="f7-icons padding-horizontal">cart_fill_badge_plus</i>
+                    <span>Add to cart</span>
+                  </a>
+                  <div>
+                    <a href="/favorites/" class="add_to_favorites">
+                      <i class="f7-icons padding-horizontal">suit_heart</i>
+                    </a>
+                  </div>
+                </section>
+                <section class="review_section">
+                  <div class="review_section_icons">
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                    <i class="f7-icons padding-horizontal">star_fill</i>
+                  </div>
+                  <span>
+                    422 Reviews
+                  </span>
+                </section>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
   </div>
 </template>
 

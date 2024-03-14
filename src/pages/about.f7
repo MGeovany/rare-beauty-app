@@ -51,8 +51,8 @@
       </div>
     </div>
     <div class="page-content">
-      <article class="about_us_content">
-        <div class="block">
+      <div class="block">
+        <article class="about_us_content">
           <p>Get to know our team!</p>
           <ul class="team_section">
             <li>
@@ -91,9 +91,9 @@
               </div>
             </li>
           </ul>
-      </article>
+        </article>
+      </div>
     </div>
-  </div>
   </div>
 </template>
 <script>
