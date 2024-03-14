@@ -37,7 +37,7 @@
 .sidebar_list_items {
   display: flex;
   flex-direction: column;
-  font-weight: bold;
+  font-weight: 50;
   gap: 1.5em;
 }
 
@@ -135,7 +135,9 @@ input {
 .title_page {
   color: @primary;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: 50;
 }
 
 .toolbar-inner > a {
@@ -159,4 +161,34 @@ input {
 
 .toolbar::before {
   display: none;
+}
+
+.about_us_content {
+  color: @primary;
+  font-weight: 50;
+}
+.about_us_content > div > p {
+  font-size: large;
+}
+
+.team_section {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.team_section > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.team_section_details > p {
+  font-weight: 50;
+}
+
+.page-content {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
 }

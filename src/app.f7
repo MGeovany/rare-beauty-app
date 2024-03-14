@@ -5,7 +5,7 @@
     <div class="panel panel-right panel-cover panel-init" data-visible-breakpoint="960">
       <div class="view view-init" data-name="right">
         <div class="page">
-          <div class="page-content sidebar_content">
+          <div class="sidebar_content">
             <div class="list">
               <div class="avatar">
                 <img src="https://avatar.iran.liara.run/public/girl" />
