@@ -99,6 +99,9 @@ hr {
   position: static;
   height: 100px;
   background-color: @secondary;
+
+  display: flex;
+  justify-content: space-between !important;
 }
 
 .navbar-inner > a > img {
@@ -128,6 +131,10 @@ input {
 
 .ios .navbar .right {
   margin: 0;
+}
+
+.md .navbar .right {
+  margin-left: 0;
 }
 
 .searchbar-icon {
@@ -191,8 +198,11 @@ input {
 }
 
 .page-content {
-  padding-top: 5rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 14rem;
+
+  max-width: 25rem;
+  margin: 5rem auto;
 }
 
 .shop_content {
@@ -272,6 +282,9 @@ li::marker {
 }
 .home_content {
   color: @primary;
+
+  max-width: 25rem;
+  margin: 1rem auto;
 }
 
 .home_content > p {
@@ -280,15 +293,16 @@ li::marker {
   font-weight: 50;
 }
 
+.home_section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .home_section_item > a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
-}
-.home_section {
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
 }
 
@@ -298,4 +312,8 @@ li {
 
 .searchbar {
   margin: 0 1.5rem;
+}
+
+.searchbar-icon::after {
+  color: @primary;
 }
