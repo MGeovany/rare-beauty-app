@@ -1,5 +1,4 @@
 import HomePage from "../pages/home.f7";
-import FormPage from "../pages/form.f7";
 import FavoritesPage from "../pages/favorites.f7";
 import BagPage from "../pages/bag.f7";
 import ShopPage from "../pages/shop.f7";
@@ -10,7 +9,6 @@ import OffersPage from "../pages/offers.f7";
 import ProfilePage from "../pages/profile.f7";
 
 import DynamicRoutePage from "../pages/dynamic-route.f7";
-import RequestAndLoad from "../pages/request-and-load.f7";
 import NotFoundPage from "../pages/404.f7";
 
 var routes = [
