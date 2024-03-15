@@ -1,6 +1,7 @@
 @primary: #863356;
 @secondary: #f2e2d3;
 @tertiary: #e2b9a7;
+@yellow: #faf2ad;
 
 /* Left Panel right border when it is visible by breakpoint */
 .panel-left.panel-in-breakpoint:before {
@@ -316,4 +317,57 @@ li {
 
 .searchbar-icon::after {
   color: @primary;
+}
+
+.main_page {
+  height: 100vh-35px-16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid @secondary;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.main_page > article {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_page > article > p:nth-child(1) {
+  background-color: @secondary;
+  padding: 0.2rem;
+  margin: 0;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.main_page > article > p:nth-child(2) {
+  font-weight: 50;
+  font-size: large;
+}
+
+.main_page_btn {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+.main_page_btn > i {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 0 0.3rem !important;
+}
+
+.main_page_btn:hover > i {
+  padding-left: 0.8rem !important;
 }
