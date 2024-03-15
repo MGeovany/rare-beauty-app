@@ -9,7 +9,7 @@
       <div class="navbar-inner">
         <a href="/">
           <div
-            style="background: url(../assets/favicon.png) no-repeat center top; background-size: 100%; height: 40px; width: 40px; border-radius: 0.8rem;">
+            style="background: url(/assets/icons/favicon.png) no-repeat center top; background-size: 100%; height: 40px; width: 40px; border-radius: 0.8rem;">
           </div>
         </a>
         <div class="title_page">Location</div>

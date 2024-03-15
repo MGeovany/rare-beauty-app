@@ -7,7 +7,7 @@
       <div class="navbar-inner">
         <a href="/">
           <div
-            style="background: url(/icons/favicon.png) no-repeat center top; background-size: 100%; height: 40px; width: 40px; border-radius: 0.8rem;">
+            style="background: url(/assets/icons/favicon.png) no-repeat center top; background-size: 100%; height: 40px; width: 40px; border-radius: 0.8rem;">
           </div>
         </a>
         <div class="searchbar-backdrop"></div>
@@ -70,7 +70,7 @@
             <li class="home_section_item">
               <a href="/shop/">
                 <div
-                  style="background: url(../assets/images/shop-all.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
+                  style="background: url(/assets/images/highlight/shop-all.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
                 </div>
                 <h3>Shop All</h3>
               </a>
@@ -78,7 +78,7 @@
             <li class="home_section_item">
               <a href="/shop/" class="home_section_item">
                 <div
-                  style="background: url(../assets/images/new-arrivals.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
+                  style="background: url(/assets/images/highlight/new-arrivals.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
                 </div>
                 <h3>New Arrivals</h3>
               </a>
@@ -86,7 +86,7 @@
             <li class="home_section_item">
               <a href="/shop/" class="home_section_item">
                 <div
-                  style="background: url(../assets/images/bestsellers.webp) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
+                  style="background: url(/assets/images/highlight/bestsellers.webp) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
                 </div>
                 <h3>Best Sellers</h3>
               </a>
@@ -94,7 +94,7 @@
             <li class="home_section_item">
               <a href="/offers/" class="home_section_item">
                 <div
-                  style="background: url(../assets/images/on-sale.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
+                  style="background: url(/assets/images/highlight/on-sale.jpg) no-repeat center top; background-size: cover; height: 100px; width: 100px; border-radius: 0.8rem;">
                 </div>
                 <h3>On Sale</h3>
               </a>
