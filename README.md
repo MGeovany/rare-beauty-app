@@ -10,6 +10,7 @@
 - Improve `app.less`
 - Delete unnecessary files
 - Responsive on desktop
+- Optimize images
 
 ### Maybe in the future
 
