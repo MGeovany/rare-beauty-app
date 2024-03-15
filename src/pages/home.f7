@@ -21,7 +21,6 @@
             <span class="searchbar-disable-button">Cancel</span>
           </div>
         </form>
-
         <div class="right">
           <a href="#" class="link icon-only panel-open" data-panel="right">
             <i class="icon f7-icons if-not-md menu_icon">
@@ -29,7 +28,6 @@
             </i>
           </a>
         </div>
-
       </div>
     </div>
     <!-- Toolbar-->

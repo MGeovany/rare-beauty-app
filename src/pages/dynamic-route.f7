@@ -44,7 +44,6 @@
           <li><b>$f7route.hash</b>: ${$f7route.hash}</li>
           <li><b>$f7route.query</b>: ${JSON.stringify($f7route.query)}</li>
         </ul>
-
         <h4>$theme</h4>
         <p>Currently active theme:</p>
         <ul style="padding-left:25px">
