@@ -27,7 +27,7 @@
             <p>404 Not Found</span>
             <p class="text-4xl">Hmm. We can't find the page you're looking for.</p>
             <a class="main_page_btn" href="/">
-              Ir al inicio
+              Go home
               <i class="f7-icons padding-horizontal">arrow_right</i>
             </a>
           </article>
