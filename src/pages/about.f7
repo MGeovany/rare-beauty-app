@@ -58,35 +58,40 @@
           <p>Get to know our team!</p>
           <ul class="team_section">
             <li>
-              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px" />
+              <img src="https://avatar.iran.liara.run/public/girl?username=Ana" height="90px"
+                alt="Ana team member picture" />
               <div class="team_section_details">
                 <h3>Ana Flores</h3>
                 <p>Audiovisual and Advertising Communication Student</p>
               </div>
             </li>
             <li>
-              <img src="https://avatar.iran.liara.run/public/girl?username=Astrid" height="90px" />
+              <img src="https://avatar.iran.liara.run/public/girl?username=Astrid" height="90px"
+                alt="Astrid team member picture" />
               <div class="team_section_details">
                 <h3>Astrid Rivera</h3>
                 <p>Audiovisual and Advertising Communication Student</p>
               </div>
             </li>
             <li>
-              <img src="https://avatar.iran.liara.run/public/girl?username=Gabriela" height="90px" />
+              <img src="https://avatar.iran.liara.run/public/girl?username=Gabriela" height="90px"
+                alt="Gabriela team member picture" />
               <div class="team_section_details">
                 <h3>Gabriela Altamirano</h3>
                 <p>Audiovisual and Advertising Communication Student</p>
               </div>
             </li>
             <li>
-              <img src="https://avatar.iran.liara.run/public/girl?username=Siham" height="90px" />
+              <img src="https://avatar.iran.liara.run/public/girl?username=Siham" height="90px"
+                alt="Siham team member picture" />
               <div class="team_section_details">
                 <h3>Siham Samir</h3>
                 <p>Audiovisual and Advertising Communication Student</p>
               </div>
             </li>
             <li>
-              <img src="https://avatar.iran.liara.run/public/boy?username=Daniel" height="90px" />
+              <img src="https://avatar.iran.liara.run/public/boy?username=Daniel" height="90px"
+                alt="Daniel team member picture" />
               <div class="team_section_details">
                 <h3>Daniel Narvaez</h3>
                 <p>Digital Animation and Interactive Design Student</p>

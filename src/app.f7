@@ -8,7 +8,7 @@
           <div class="sidebar_content">
             <div class="list">
               <div class="avatar">
-                <img src="https://avatar.iran.liara.run/public/girl" />
+                <img src="https://avatar.iran.liara.run/public/girl" alt="profile picture" />
                 <span>Emily Smith</span>
               </div>
               <ul class="padding sidebar_list_items">

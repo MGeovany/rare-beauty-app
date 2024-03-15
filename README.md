@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Add more description to the page details
 - Improve SEO
 - Add placeholder to pages, not created
 - Improve 404
